@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Basket from './pages/Basket'
 import Spinner from "../src/assets/images/spinner.svg"
 import Cards from "./components/Cards"
+import Test from './Test'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     return (
 
         <>
+        <Test/>
             <Header setSearch = {setSearch} setIsDark = {setIsDark} isDark={isDark} num = {num}/>
             <Cards search = {search} isDark = {isDark} setNum = {setNum}/>    
         </>
